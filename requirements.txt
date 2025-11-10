@@ -1,2 +1,13 @@
-streamlit>=1.28.0
-pandas>=2.0.0
+# Core framework
+streamlit>=1.31.0,<2.0.0
+
+# Performance and compatibility
+altair<5  # For Streamlit charts compatibility
+protobuf>=3.20.0,<5.0.0  # Protocol buffers for efficient data serialization
+
+# Optional but recommended for better performance
+watchdog>=2.0.0  # File system monitoring for auto-reload
+pillow>=9.0.0  # Image processing support
+
+# Utilities
+python-dateutil>=2.8.0  # Date utilities
