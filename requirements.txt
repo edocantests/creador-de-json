@@ -1,13 +1,24 @@
-# Core framework
-streamlit>=1.31.0,<2.0.0
+DEPENDENCIAS PRINCIPALES
+# ============================================================================
 
-# Performance and compatibility
-altair<5  # For Streamlit charts compatibility
-protobuf>=3.20.0,<5.0.0  # Protocol buffers for efficient data serialization
+# Framework principal para la aplicación web
+streamlit>=1.28.0
 
-# Optional but recommended for better performance
-watchdog>=2.0.0  # File system monitoring for auto-reload
-pillow>=9.0.0  # Image processing support
+# ============================================================================
+# DEPENDENCIAS OPCIONALES (si deseas expandir funcionalidades)
+# ============================================================================
 
-# Utilities
-python-dateutil>=2.8.0  # Date utilities
+# Para validación avanzada de schemas JSON
+# jsonschema>=4.19.0
+
+# Para procesamiento de texto más avanzado
+# nltk>=3.8.1
+
+# Para análisis de lenguaje natural
+# spacy>=3.7.0
+
+# Para logging y debugging
+# loguru>=0.7.0
+
+# Para exportar a otros formatos
+# pyyaml>=6.0.1
