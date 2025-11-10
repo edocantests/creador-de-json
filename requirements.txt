@@ -1,24 +1,8 @@
-DEPENDENCIAS PRINCIPALES
-# ============================================================================
-
-# Framework principal para la aplicación web
-streamlit>=1.28.0
-
-# ============================================================================
-# DEPENDENCIAS OPCIONALES (si deseas expandir funcionalidades)
-# ============================================================================
-
-# Para validación avanzada de schemas JSON
-# jsonschema>=4.19.0
-
-# Para procesamiento de texto más avanzado
-# nltk>=3.8.1
-
-# Para análisis de lenguaje natural
-# spacy>=3.7.0
-
-# Para logging y debugging
-# loguru>=0.7.0
-
-# Para exportar a otros formatos
-# pyyaml>=6.0.1
+streamlit==1.26.0
+pdfplumber==0.9.0
+sentence-transformers==2.2.2
+torch>=1.13.1  # requerido por sentence-transformers (instalar CPU o GPU build según su entorno)
+nltk==3.8.1
+langdetect==1.0.9
+numpy==1.25.2
+tqdm==4.66.1
